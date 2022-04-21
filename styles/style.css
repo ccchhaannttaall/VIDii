@@ -17,26 +17,46 @@ button:not([disabled]) {
 h1 {
   color:crimson;
 }
+img{
+  width: 300%;
+  height:180%;
+}
 
+div {
+  width: 50%;
+  height: 50%;
+  background-color: red;
+}
+
+/*
 img {
-    animation-name:kaartVerplaatsen;
-    animation-duration:.8s;
-    animation-delay:0s;
-    animation-iteration-count:1;
-    animation-fill-mode:none, forwards;
+    animation-name:kaartPast, kaartAwakening;
+    animation-duration:.8s, .8s;
+    animation-delay:4s, 4s;
+    animation-iteration-count:1, 1;
+    animation-fill-mode:forwards, forwards;
    }
    
-   @keyframes kaartVerplaatsen {
+   @keyframes kaartPast {
      0% {
        transform:translatey(0);
-       animation-timing-function:cubic-bezier(0.165, 0.840, 0.440, 1.000);
      }
      50% {
-       transform:translatey(-5em);
-       animation-timing-function:cubic-bezier(0.895, 0.030, 0.685, 0.220);
+       transform:translatey(-50em);
      }
      100%{
-       transform:translatey(0);
+       transform:translatey(-100em);
      }
    }
 
+   @keyframes kaartAwakening{
+    0% {
+      transform:translatey(-100em);
+    }
+    50% {
+      transform:translatey(-150em);
+    }
+    100%{
+      transform:translatey(-200em);
+    }
+   }
