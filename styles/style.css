@@ -3,10 +3,27 @@
   box-sizing:border-box;  
 }
 
+
+
 html, body {
   height:100%;
   margin:0;
 }
+
+body {
+  background-image: url("/images/klein.png");
+  background-size: 400%;
+  background-position-y: 2%;
+}
+
+/*main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+*/
 
 button:not([disabled]) {
   cursor:pointer;
@@ -18,15 +35,31 @@ h1 {
   color:crimson;
 }
 img{
-  width: 300%;
-  height:180%;
+  width: 5%;
 }
 
-div {
-  width: 50%;
-  height: 50%;
-  background-color: red;
+ol{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 500px;
+  grid-row-gap: 400px;
+  list-style-type: none;
+  margin: 2em;
 }
+
+
+li {
+  background-color: hsla(31, 100%, 26%, 0.80);
+  padding: 2em;
+  margin:0em;
+  border-radius: 1em;
+  border-style: groove;
+  border-width: .5em;
+}
+
+
+
 
 /*
 img {
