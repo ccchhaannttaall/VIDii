@@ -50,6 +50,11 @@ Mijn startniveau is: Rood
 
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Layout animatie problemen:
+  Aan de slag geweest met translateY op de poster image om zo de achtergrond te bewegen. Hier ben ik van afgestapt omdat dit een hele lap met animatie's en delay's zou opleveren die ik later slecht zou kunnen aanpassen / begrijpen omdat alles door elkaar heen zou werken. (omhoog, omlaag, links rechts en stops inbouwen waarin link stilstaat.) Ik durfde dus niet verder te bouwen aan deze oplossing en kreeg ook de tips om dat niet zo te doen.
+  Lang nagedacht over een andere manier om het aan te pakken of een hele andere oplossing te maken.
+  Zie image: <img src="readme-images/animatie.png" width="375px" alt="eerste animatie">
+
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -58,9 +63,14 @@ Mijn startniveau is: Rood
 
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Layout animatie problemen:
+  Vervolgens heb ik om hulp gevraagd bij Aanne en die kwam met de volgende oplossing:
+  <img src="readme-images/sanne.png" width="375px" alt="eerste animatie">
+  Hier lukte het helaas niet om het scherm te bewegen, na een aantal keer proberen kreeg ik nogsteeds na de #id te selecteren een lege pagina te zien omdat de browser aangaf de pagina niet te kunnen vinden. Terwijl een leeg #id altijd op dezelfde pagina hoort te blijven als linkje en je niet hoort weg te sturen. ik kon helaas dit niet meer uitvragen aan sanne omdat ik erg ziek ben geworden diezelfde middag.
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Uiteindelijk heb ik hulp gevraagd bij een studiegenoot die mij javascript aanraden. Dit heb ik gebruikt om de layout te bewegen met een forloop. Door middel van een timeOut kan de animatie gekoppeld worden met tijd. Elke iteratie is een aantal milliseconden. Tussen de 1-100 iteraties kan link naar links lopen, tussen de 101-200 naar beneden enzovoort. Ook is het mogelijk om de image van link te vervangen na een aantal iteraties.
 
 
 
@@ -79,6 +89,7 @@ Mijn startniveau is: Rood
   
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).

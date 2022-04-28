@@ -4,16 +4,18 @@
 }
 
 
-
 html, body {
   height:100%;
   margin:0;
 }
 
 body {
-  background-image: url("/images/klein.png");
-  background-size: 400%;
-  background-position-y: 2%;
+  overflow:hidden;
+  scroll-behavior: smooth;
+}
+
+button:not([disabled]) {
+  cursor:pointer;
 }
 
 /*main {
@@ -25,20 +27,32 @@ body {
 }
 */
 
-button:not([disabled]) {
-  cursor:pointer;
+main{
+  background-image: url("/images/klein.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: 350%;
 }
+
 
 /* jouw CSS vanaf hier */
 
 h1 {
   color:crimson;
 }
-img{
+#link{
   width: 5%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
 }
 
-ol{
+.items{
+height: 50%;
+width: 50%;
+}
+
+.cards{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -49,7 +63,7 @@ ol{
 }
 
 
-li {
+.cards > li {
   background-color: hsla(31, 100%, 26%, 0.80);
   padding: 2em;
   margin:0em;
