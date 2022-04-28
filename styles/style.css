@@ -32,6 +32,18 @@ main{
   width: 100vw;
   height: 100vh;
   background-size: 350%;
+
+  animation: MOVE-BACKGROUND 50000ms linear;
+  animation-play-state: running;
+}
+
+@keyframes MOVE-BACKGROUND {
+  from {
+    background-position: 0% 0%
+  }
+  to { 
+    background-position: 100% 0%
+  }
 }
 
 
@@ -48,11 +60,20 @@ h1 {
 }
 
 .items{
-height: 50%;
-width: 50%;
+  height: 0%;
+  width: 50%;
 }
 
-.cards{
+.items > li > button {
+  width: 50px;
+  height: 50px;
+}
+
+.items > li > button:nth-of-type(1) {
+  background: url("/images/book.png");
+}
+
+/* .cards{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -60,10 +81,29 @@ width: 50%;
   grid-row-gap: 400px;
   list-style-type: none;
   margin: 2em;
+} */
+
+.cards {
+  width: 1000%;
+  display: flex;
+  flex-direction: row;
+  margin: 2em;
+  justify-content: space-between;
+  animation: MOVE-CARDS 100000ms linear;
+  animation-play-state: running;
 }
 
+@keyframes MOVE-CARDS {
+  from {
+    transform: translateX(0);
+  }
+  to { 
+    transform: translateX(-100%);
+  }
+}
 
-.cards > li {
+.cards > div {
+  width: 16em;
   background-color: hsla(31, 100%, 26%, 0.80);
   padding: 2em;
   margin:0em;
@@ -73,37 +113,3 @@ width: 50%;
 }
 
 
-
-
-/*
-img {
-    animation-name:kaartPast, kaartAwakening;
-    animation-duration:.8s, .8s;
-    animation-delay:4s, 4s;
-    animation-iteration-count:1, 1;
-    animation-fill-mode:forwards, forwards;
-   }
-   
-   @keyframes kaartPast {
-     0% {
-       transform:translatey(0);
-     }
-     50% {
-       transform:translatey(-50em);
-     }
-     100%{
-       transform:translatey(-100em);
-     }
-   }
-
-   @keyframes kaartAwakening{
-    0% {
-      transform:translatey(-100em);
-    }
-    50% {
-      transform:translatey(-150em);
-    }
-    100%{
-      transform:translatey(-200em);
-    }
-   }

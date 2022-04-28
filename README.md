@@ -94,6 +94,7 @@ Mijn startniveau is: Rood
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
   
+  Het is mij niet gelukt om zonder Javascript interactie te krijgen met animaties. Ik kan met css de achterground van de kaart verplaatsen en ik kan de kaartjes naar links en rechts bewegen, maar om de animatie pas te activeren als er op een item geklikt wordt lukt niet. De animatie kan namelijk alleen een st
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
