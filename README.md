@@ -58,7 +58,7 @@ Mijn startniveau is: Rood
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Geen oplossing kunnen vinden.
 
 
   ### Bevinding 2:
@@ -75,7 +75,11 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 3:
-  ...
+  Besloten om niet verder te gaan met de javascript oplossing, geprobeerd om met behulp van grids een oplossing te maken door de li's een achtergrond te geven en de kaartjes er laten in te plaatsen. dit lukte niet omdat het niet lukte om de kaartjes geen hoogte te en breedte mee te geven binnen het grid.:
+  <img src="readme-images/kaartje.png" width="375px" alt="oplossing1">
+  <img src="readme-images/kaartje2.png" width="375px" alt="oplossing2">
+
+
 
 </details>
 
@@ -90,14 +94,18 @@ Mijn startniveau is: Rood
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
   
+  Het is mij niet gelukt om zonder Javascript interactie te krijgen met animaties. Ik kan met css de achterground van de kaart verplaatsen en ik kan de kaartjes naar links en rechts bewegen, maar om de animatie pas te activeren als er op een item geklikt wordt lukt niet. De animatie kan namelijk alleen een starten met javascript
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Op dit moment gewerkt met een animatie voor de kaartjes en voor de achtergrond. de snelheid is nog niet correct op elkaar afgestemd maar dit is de oplossing waar ik mee ga werken.
 
 
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  De animatie van lopen gaat nu enkel nog naar rechts. Om te kisten ook tegelijk met de background naar beneden te laten beneden is lastig.
+
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).

@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  overflow:scroll;
+  overflow:hidden;
   scroll-behavior: smooth;
 }
 
@@ -18,6 +18,33 @@ button:not([disabled]) {
   cursor:pointer;
 }
 
+/*main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+*/
+
+main{
+  background-image: url("/images/klein.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: 350%;
+
+  animation: MOVE-BACKGROUND 50000ms linear infinite;
+  animation-play-state: running;
+}
+
+@keyframes MOVE-BACKGROUND {
+  from {
+    background-position: 0% 0%
+  }
+  to { 
+    background-position: 100% 0%
+  }
+}
 
 
 /* jouw CSS vanaf hier */
@@ -25,26 +52,51 @@ button:not([disabled]) {
 h1 {
   color:crimson;
 }
-
-
-ol{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  list-style-type: none;
-  background-color: brown;
-  width: 100%;
-  height:100%;
+#link{
+  height:80px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  content: url("/images/link.png");
 }
 
-ol > li:nth-of-type(1){
-  background-image: url("/images/deel1.png");
+#link:hover {
+  content: url("/images/link-attk.png");
 
 }
 
-ol > li {
-  width: 100%;
-  height:100%;
+.items{
+  height: 35%;
+  width: 50%;
 }
+
+.chests {
+  width: 1000%;
+  display: flex;
+  flex-direction: row;
+  margin: 2em;
+  justify-content: space-between;
+  animation: MOVE-CARDS 200000ms linear;
+  animation-play-state: running;
+}
+
+@keyframes MOVE-CARDS {
+  from {
+    transform: translateX(0);
+  }
+  to { 
+    transform: translateX(-100%);
+  }
+}
+
+.chests > img {
+  height: 5em;
+  width: 5em;
+  content: url("/images/chest.png");
+}
+
+.chests > img:hover {
+  content: url("/images/chest-open.png");
+}
+
+
