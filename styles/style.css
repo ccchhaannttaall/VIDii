@@ -28,7 +28,7 @@ button:not([disabled]) {
 */
 
 main{
-  background-image: url("images/klein.png");
+  background-image: url("../images/klein.png");
   width: 100vw;
   height: 100vh;
   background-size: 350%;
@@ -57,11 +57,11 @@ h1 {
   position: fixed;
   left: 50%;
   top: 50%;
-  content: url("images/link.png");
+  content: url("../index.html");
 }
 
 #link:hover {
-  content: url("images/link-attk.png");
+  content: url("../images/link-attk.png");
 
 }
 
@@ -92,11 +92,11 @@ h1 {
 .chests > img {
   height: 5em;
   width: 5em;
-  content: url("images/chest.png");
+  content: url("../images/chest.png");
 }
 
 .chests > img:hover {
-  content: url("images/chest-open.png");
+  content: url("../images/chest-open.png");
 }
 
 
