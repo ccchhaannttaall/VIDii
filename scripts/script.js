@@ -3,6 +3,8 @@ console.log("Howdy!");
 
 let main = document.getElementsByTagName("main")[0];
 
+
+
 for (let i = 1; i < 1000; i++) {
     setTimeout(() => {
         if (i <= 50) { // 5 seconden 

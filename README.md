@@ -58,7 +58,7 @@ Mijn startniveau is: Rood
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Geen oplossing kunnen vinden.
 
 
   ### Bevinding 2:
@@ -75,7 +75,11 @@ Mijn startniveau is: Rood
 
 
   ### Bevinding 3:
-  ...
+  Besloten om niet verder te gaan met de javascript oplossing, geprobeerd om met behulp van grids een oplossing te maken door de li's een achtergrond te geven en de kaartjes er laten in te plaatsen. dit lukte niet omdat het niet lukte om de kaartjes geen hoogte te en breedte mee te geven binnen het grid.:
+  <img src="readme-images/kaartje.png" width="375px" alt="oplossing1">
+  <img src="readme-images/kaartje2.png" width="375px" alt="oplossing2">
+
+
 
 </details>
 
