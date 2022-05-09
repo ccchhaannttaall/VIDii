@@ -17,86 +17,97 @@ body {
 button:not([disabled]) {
   cursor:pointer;
 }
-
-/*main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-*/
-
-main{
-  background-image: url("../images/klein.png");
-  width: 100vw;
-  height: 100vh;
-  background-size: 350%;
-
-  animation: MOVE-BACKGROUND 50000ms linear infinite;
-  animation-play-state: running;
+body {
+	margin:0;
+	background-color:silver;
+	
+	display:grid;
+	place-items:start center;
 }
 
-@keyframes MOVE-BACKGROUND {
-  from {
-    background-position: 0% 0%
-  }
-  to { 
-    background-position: 100% 0%
-  }
+/* Code voor de layout en positie van de elementen  */
+
+
+nav {
+	position:fixed;
+	
+	z-index:100;
 }
 
-
-/* jouw CSS vanaf hier */
-
-h1 {
-  color:crimson;
-}
-#link{
-  height:80px;
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  content: url("../images/link.png");
-}
-
-#link:hover {
-  content: url("../images/link-attk.png");
-
+ol {
+	width:100vw;
+	height:100vh;
+	overflow:hidden;
+	
+	margin:0;
+	padding:0;
+	list-style:none;
+	
+	display:grid;
+	grid-template-columns:100vw 100vw 100vw;
+	grid-template-rows:100vh 100vh 100vh;
+	
+	scroll-behavior:smooth;
+	scroll-snap-type: both mandatory;
 }
 
-.items{
-  height: 35%;
-  width: 50%;
+li {
+	position:relative;
+	width:100vw;
+	height:100vh;
+	
+	display:grid;
+	place-items:center;
+	
+	scroll-snap-align: center;
+	
+	background-size:cover;
+	background-position:center;
 }
 
-.chests {
-  width: 1000%;
-  display: flex;
-  flex-direction: row;
-  margin: 2em;
-  justify-content: space-between;
-  animation: MOVE-CARDS 200000ms linear;
-  animation-play-state: running;
+/* Code voor de game mappen en styling van de elementen */
+
+#een{
+  background-image:url(../images/deel1.1.png);
 }
 
-@keyframes MOVE-CARDS {
-  from {
-    transform: translateX(0);
-  }
-  to { 
-    transform: translateX(-100%);
-  }
+#twee{
+  background-image:url(../images/deel2.2.png);
+
 }
 
-.chests > img {
-  height: 5em;
-  width: 5em;
-  content: url("../images/chest.png");
+#drie{
+  background-image:url(../images/deel3.3.png);
+
 }
 
-.chests > img:hover {
-  content: url("../images/chest-open.png");
+#vier{
+  background-image:url(../images/deel4.4.png);
+
 }
 
+#vijf{
+  background-image:url(../images/deel5.5.png);
+
+}
+
+#zes{
+  background-image:url(../images/deel6.6.png);
+
+}
+
+#zeven{
+  background-image:url(../images/deel7.7.png);
+
+}
+
+#acht{
+  background-image:url(../images/deel8.8.png);
+
+}
+
+#negen{
+  background-image:url(../images/deel9.9.png);
+
+}
 
