@@ -180,7 +180,8 @@ Mijn startniveau is: Rood
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
+1. https://stackoverflow.com/questions/29464671/how-to-make-an-item-fall-down-with-css3-animation
+animatie voor het uitvallen van het kaartje, aangepast naar mijn benodigdheden maar dit als startpunt gekozen.
 2. bron 2
 3. ...
 

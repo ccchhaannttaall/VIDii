@@ -29,10 +29,46 @@ body {
 
 
 nav {
-	position:fixed;
-	
+	position:fixed;	
 	z-index:100;
 }
+
+a:nth-of-type(1){
+color: pink;
+}
+
+a:nth-of-type(2){
+  color: blue;
+}
+
+a:nth-of-type(3){
+  color: green;
+}
+
+a:nth-of-type(4){
+  color: purple;
+}
+
+a:nth-of-type(5){
+  color: orange;
+}
+
+a:nth-of-type(6){
+  color: red;
+}
+
+a:nth-of-type(7){
+  color: yellow;
+}
+
+a:nth-of-type(8){
+  color: cyan;
+}
+
+a:nth-of-type(9){
+  color: grey;
+}
+
 
 ol {
 	width:100vw;
@@ -67,9 +103,51 @@ li {
 
 /* Code voor de game mappen en styling van de elementen */
 
-#een{
-  background-image:url(../images/deel1.1.png);
+img{
+  width: 10%;
 }
+
+li:nth-of-type(1){
+  background-image:url(../images/deel1.1.png);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+li > section {
+  width: 20em;
+}
+
+li > section > button {
+  width: 100%;
+}
+
+li > section > p {
+  padding: 0;
+  margin: 0;
+}
+
+
+p{
+  opacity: 0;
+}
+.open{
+  opacity: 0;
+  animation: new-item-animation .3s linear forwards;
+} 
+  @keyframes new-item-animation {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+}
+
+  to {
+      opacity: 1;
+      transform : translateY(0);
+      background-color: brown;
+  }
+}
+
 
 #twee{
   background-image:url(../images/deel2.2.png);
