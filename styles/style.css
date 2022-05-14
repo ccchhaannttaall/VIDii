@@ -34,40 +34,303 @@ nav {
 }
 
 a:nth-of-type(1){
-color: pink;
+color: rgb(252, 89, 89);
+font-weight: bold;
+font-size: 1.5em;
+padding: 1em;
+background-color:hsla(0, 0%, 0%, 0.82);
 }
+
+a:nth-of-type(1):visited{
+  color: rgb(123, 2, 2);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em;
+  opacity: 55%;
+  }
+
+  a:nth-of-type(1):hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  a:nth-of-type(1):focus{
+    background-color: blue;
+    color: white;
+  }
+  
+  a:nth-of-type(1):active{
+    background-color: red;
+    color: white;
+  }
+
+
 
 a:nth-of-type(2){
-  color: blue;
+  color: rgb(139, 6, 6);
+  font-weight: bold;
+font-size: 1.5em;
+padding: 1em;
+background-color:hsla(0, 0%, 0%, 0.82);
 }
+
+a:nth-of-type(2):visited{
+  color: rgb(123, 2, 2);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em;
+  opacity: 55%;
+  }
+
+  a:nth-of-type(2):hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  a:nth-of-type(2):focus{
+    background-color: blue;
+    color: white;
+  }
+  
+  a:nth-of-type(2):active{
+    background-color: red;
+    color: white;
+  }
 
 a:nth-of-type(3){
-  color: green;
+  color: blue;
+  font-weight: bold;
+font-size: 1.5em;
+padding: 1em;
+background-color:hsla(0, 0%, 0%, 0.82);
 }
+
+a:nth-of-type(3):visited{
+  color: rgb(123, 2, 2);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em;
+  opacity: 55%;
+  }
+
+  a:nth-of-type(3):hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  a:nth-of-type(3):focus{
+    background-color: blue;
+    color: white;
+  }
+  
+  a:nth-of-type(3):active{
+    background-color: red;
+    color: white;
+  }
 
 a:nth-of-type(4){
-  color: purple;
+  color: green;
+  font-weight: bold;
+font-size: 1.5em;
+padding: 1em;
+background-color:hsla(0, 0%, 0%, 0.82);
 }
+
+a:nth-of-type(4):visited{
+  color: rgb(123, 2, 2);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em;
+  opacity: 55%;
+  }
+
+  a:nth-of-type(4):hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  a:nth-of-type(4):focus{
+    background-color: blue;
+    color: white;
+  }
+  
+  a:nth-of-type(4):active{
+    background-color: red;
+    color: white;
+  }
 
 a:nth-of-type(5){
-  color: orange;
+  color: purple;
+  font-weight: bold;
+font-size: 1.5em;
+padding: 1em;
+background-color:hsla(0, 0%, 0%, 0.82);
 }
+
+a:nth-of-type(5):visited{
+  color: rgb(123, 2, 2);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em;
+  opacity: 55%;
+  }
+
+  a:nth-of-type(5):hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  a:nth-of-type(5):focus{
+    background-color: blue;
+    color: white;
+  }
+  
+  a:nth-of-type(5):active{
+    background-color: red;
+    color: white;
+  }
 
 a:nth-of-type(6){
-  color: red;
+  color: cyan;
+  font-weight: bold;
+font-size: 1.5em;
+padding: 1em;
+background-color:hsla(0, 0%, 0%, 0.82);
 }
+
+a:nth-of-type(6):visited{
+  color: rgb(123, 2, 2);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em;
+  opacity: 55%;
+  }
+
+  a:nth-of-type(6):hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  a:nth-of-type(6):focus{
+    background-color: blue;
+    color: white;
+  }
+  
+  a:nth-of-type(6):active{
+    background-color: red;
+    color: white;
+  }
 
 a:nth-of-type(7){
-  color: yellow;
+  color: rgb(4, 63, 4);
+  font-weight: bold;
+font-size: 1.5em;
+padding: 1em;
+background-color:hsla(0, 0%, 0%, 0.82);
 }
+
+a:nth-of-type(7):visited{
+  color: rgb(123, 2, 2);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em;
+  opacity: 55%;
+  }
+
+  a:nth-of-type(7):hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  a:nth-of-type(7):focus{
+    background-color: blue;
+    color: white;
+  }
+  
+  a:nth-of-type(7):active{
+    background-color: red;
+    color: white;
+  }
 
 a:nth-of-type(8){
-  color: cyan;
+  color: rgb(20, 137, 67);
+  font-weight: bold;
+font-size: 1.5em;
+padding: 1em;
+background-color:hsla(0, 0%, 0%, 0.82);
 }
 
+a:nth-of-type(8):visited{
+  color: rgb(123, 2, 2);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em;
+  opacity: 55%;
+  }
+
+  a:nth-of-type(8):hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  a:nth-of-type(8):focus{
+    background-color: blue;
+    color: white;
+  }
+  
+  a:nth-of-type(8):active{
+    background-color: red;
+    color: white;
+  }
+
 a:nth-of-type(9){
-  color: grey;
+  color: rgb(26, 204, 204);
+  font-weight: bold;
+font-size: 1.5em;
+padding: 1em;
+background-color:hsla(0, 0%, 0%, 0.82);
 }
+
+a:nth-of-type(9):visited{
+  color: rgb(123, 2, 2);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em;
+  opacity: 55%;
+  }
+
+  a:nth-of-type(9):hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+  
+  a:nth-of-type(9):focus{
+    background-color: blue;
+    color: white;
+  }
+  
+  a:nth-of-type(9):active{
+    background-color: red;
+    color: white;
+  }
 
 
 ol {
@@ -107,6 +370,38 @@ img{
   width: 10%;
 }
 
+button{
+  border-radius: 0;
+  background-color: rgb(80, 39, 9);
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:visited{
+color: blue;
+background-color: white;
+}
+
+button:focus{
+  background-color: rgb(37, 22, 9);
+  color: white;
+}
+
+button:active{
+  background-color: rgb(52, 0, 52);
+  color: white;
+}
+
+
+
+
 li:nth-of-type(1){
   background-image:url(../images/deel1.1.png);
   display: flex;
@@ -129,10 +424,20 @@ li > section > p {
 
 
 p{
+  font-family: 'PT Serif', serif , Arial;
   opacity: 0;
+  color:rgb(226, 226, 226);
 }
+
+span{
+  color:green;
+  font-weight: bold;
+}
+
+
 .open{
   opacity: 0;
+  padding:2em;
   animation: new-item-animation .3s linear forwards;
 } 
   @keyframes new-item-animation {
@@ -144,7 +449,7 @@ p{
   to {
       opacity: 1;
       transform : translateY(0);
-      background-color: brown;
+      background-color: hsla(0, 0%, 0%, 0.82)
   }
 }
 
