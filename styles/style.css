@@ -1,496 +1,568 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 
-html, body {
-  height:100%;
-  margin:0;
+html,
+body {
+  height: 100%;
+  margin: 0;
 }
 
 body {
-  overflow:hidden;
+  overflow: hidden;
   scroll-behavior: smooth;
 }
 
 button:not([disabled]) {
-  cursor:pointer;
+  cursor: pointer;
 }
+
 body {
-	margin:0;
-	background-color:silver;
-	
-	display:grid;
-	place-items:start center;
+  margin: 0;
+  background-color: silver;
+
+  display: grid;
+  place-items: start center;
 }
 
 /* Code voor de layout en positie van de elementen  */
 
 
 nav {
-	position:fixed;	
-	z-index:100;
+  position: fixed;
+  z-index: 100;
 }
 
-a:nth-of-type(1){
-color: rgb(252, 89, 89);
-font-weight: bold;
-font-size: 1.5em;
-padding: 1em;
-background-color:hsla(0, 0%, 0%, 0.82);
+audio {
+  width: 7em;
+  padding-top: 2em;
 }
 
-a:nth-of-type(1):visited{
+a:nth-of-type(1) {
+  color: rgb(252, 89, 89);
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: hsla(0, 0%, 0%, 0.82);
+}
+
+a:nth-of-type(1):visited {
   color: rgb(123, 2, 2);
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
   opacity: 55%;
-  }
+}
 
-  a:nth-of-type(1):hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  
-  
-  a:nth-of-type(1):focus{
-    background-color: blue;
-    color: white;
-  }
-  
-  a:nth-of-type(1):active{
-    background-color: red;
-    color: white;
-  }
+a:nth-of-type(1):hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
 
+a:nth-of-type(1):focus {
+  background-color: blue;
+  color: white;
+}
 
-a:nth-of-type(2){
+a:nth-of-type(1):active {
+  background-color: red;
+  color: white;
+}
+
+
+
+a:nth-of-type(2) {
   color: rgb(139, 6, 6);
   font-weight: bold;
-font-size: 1.5em;
-padding: 1em;
-background-color:hsla(0, 0%, 0%, 0.82);
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: hsla(0, 0%, 0%, 0.82);
 }
 
-a:nth-of-type(2):visited{
+a:nth-of-type(2):visited {
   color: rgb(123, 2, 2);
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
   opacity: 55%;
-  }
+}
 
-  a:nth-of-type(2):hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  
-  
-  a:nth-of-type(2):focus{
-    background-color: blue;
-    color: white;
-  }
-  
-  a:nth-of-type(2):active{
-    background-color: red;
-    color: white;
-  }
+a:nth-of-type(2):hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-a:nth-of-type(3){
+
+a:nth-of-type(2):focus {
+  background-color: blue;
+  color: white;
+}
+
+a:nth-of-type(2):active {
+  background-color: red;
+  color: white;
+}
+
+a:nth-of-type(3) {
   color: blue;
   font-weight: bold;
-font-size: 1.5em;
-padding: 1em;
-background-color:hsla(0, 0%, 0%, 0.82);
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: hsla(0, 0%, 0%, 0.82);
 }
 
-a:nth-of-type(3):visited{
+a:nth-of-type(3):visited {
   color: rgb(123, 2, 2);
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
   opacity: 55%;
-  }
+}
 
-  a:nth-of-type(3):hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  
-  
-  a:nth-of-type(3):focus{
-    background-color: blue;
-    color: white;
-  }
-  
-  a:nth-of-type(3):active{
-    background-color: red;
-    color: white;
-  }
+a:nth-of-type(3):hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-a:nth-of-type(4){
+
+a:nth-of-type(3):focus {
+  background-color: blue;
+  color: white;
+}
+
+a:nth-of-type(3):active {
+  background-color: red;
+  color: white;
+}
+
+a:nth-of-type(4) {
   color: green;
   font-weight: bold;
-font-size: 1.5em;
-padding: 1em;
-background-color:hsla(0, 0%, 0%, 0.82);
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: hsla(0, 0%, 0%, 0.82);
 }
 
-a:nth-of-type(4):visited{
+a:nth-of-type(4):visited {
   color: rgb(123, 2, 2);
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
   opacity: 55%;
-  }
+}
 
-  a:nth-of-type(4):hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  
-  
-  a:nth-of-type(4):focus{
-    background-color: blue;
-    color: white;
-  }
-  
-  a:nth-of-type(4):active{
-    background-color: red;
-    color: white;
-  }
+a:nth-of-type(4):hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-a:nth-of-type(5){
+
+a:nth-of-type(4):focus {
+  background-color: blue;
+  color: white;
+}
+
+a:nth-of-type(4):active {
+  background-color: red;
+  color: white;
+}
+
+a:nth-of-type(5) {
   color: purple;
   font-weight: bold;
-font-size: 1.5em;
-padding: 1em;
-background-color:hsla(0, 0%, 0%, 0.82);
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: hsla(0, 0%, 0%, 0.82);
 }
 
-a:nth-of-type(5):visited{
+a:nth-of-type(5):visited {
   color: rgb(123, 2, 2);
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
   opacity: 55%;
-  }
+}
 
-  a:nth-of-type(5):hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  
-  
-  a:nth-of-type(5):focus{
-    background-color: blue;
-    color: white;
-  }
-  
-  a:nth-of-type(5):active{
-    background-color: red;
-    color: white;
-  }
+a:nth-of-type(5):hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-a:nth-of-type(6){
+
+a:nth-of-type(5):focus {
+  background-color: blue;
+  color: white;
+}
+
+a:nth-of-type(5):active {
+  background-color: red;
+  color: white;
+}
+
+a:nth-of-type(6) {
   color: cyan;
   font-weight: bold;
-font-size: 1.5em;
-padding: 1em;
-background-color:hsla(0, 0%, 0%, 0.82);
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: hsla(0, 0%, 0%, 0.82);
 }
 
-a:nth-of-type(6):visited{
+a:nth-of-type(6):visited {
   color: rgb(123, 2, 2);
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
   opacity: 55%;
-  }
+}
 
-  a:nth-of-type(6):hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  
-  
-  a:nth-of-type(6):focus{
-    background-color: blue;
-    color: white;
-  }
-  
-  a:nth-of-type(6):active{
-    background-color: red;
-    color: white;
-  }
+a:nth-of-type(6):hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-a:nth-of-type(7){
+
+a:nth-of-type(6):focus {
+  background-color: blue;
+  color: white;
+}
+
+a:nth-of-type(6):active {
+  background-color: red;
+  color: white;
+}
+
+a:nth-of-type(7) {
   color: rgb(4, 63, 4);
   font-weight: bold;
-font-size: 1.5em;
-padding: 1em;
-background-color:hsla(0, 0%, 0%, 0.82);
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: hsla(0, 0%, 0%, 0.82);
 }
 
-a:nth-of-type(7):visited{
+a:nth-of-type(7):visited {
   color: rgb(123, 2, 2);
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
   opacity: 55%;
-  }
+}
 
-  a:nth-of-type(7):hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  
-  
-  a:nth-of-type(7):focus{
-    background-color: blue;
-    color: white;
-  }
-  
-  a:nth-of-type(7):active{
-    background-color: red;
-    color: white;
-  }
+a:nth-of-type(7):hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-a:nth-of-type(8){
+
+a:nth-of-type(7):focus {
+  background-color: blue;
+  color: white;
+}
+
+a:nth-of-type(7):active {
+  background-color: red;
+  color: white;
+}
+
+a:nth-of-type(8) {
   color: rgb(20, 137, 67);
   font-weight: bold;
-font-size: 1.5em;
-padding: 1em;
-background-color:hsla(0, 0%, 0%, 0.82);
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: hsla(0, 0%, 0%, 0.82);
 }
 
-a:nth-of-type(8):visited{
+a:nth-of-type(8):visited {
   color: rgb(123, 2, 2);
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
   opacity: 55%;
-  }
+}
 
-  a:nth-of-type(8):hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  
-  
-  a:nth-of-type(8):focus{
-    background-color: blue;
-    color: white;
-  }
-  
-  a:nth-of-type(8):active{
-    background-color: red;
-    color: white;
-  }
+a:nth-of-type(8):hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-a:nth-of-type(9){
+
+a:nth-of-type(8):focus {
+  background-color: blue;
+  color: white;
+}
+
+a:nth-of-type(8):active {
+  background-color: red;
+  color: white;
+}
+
+a:nth-of-type(9) {
   color: rgb(26, 204, 204);
   font-weight: bold;
-font-size: 1.5em;
-padding: 1em;
-background-color:hsla(0, 0%, 0%, 0.82);
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: hsla(0, 0%, 0%, 0.82);
 }
 
-a:nth-of-type(9):visited{
+a:nth-of-type(9):visited {
   color: rgb(123, 2, 2);
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
   opacity: 55%;
-  }
+}
 
-  a:nth-of-type(9):hover {
-    background-color: black;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  
-  
-  a:nth-of-type(9):focus{
-    background-color: blue;
-    color: white;
-  }
-  
-  a:nth-of-type(9):active{
-    background-color: red;
-    color: white;
-  }
+a:nth-of-type(9):hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+a:nth-of-type(9):focus {
+  background-color: blue;
+  color: white;
+}
+
+a:nth-of-type(9):active {
+  background-color: red;
+  color: white;
+}
 
 
 ol {
-	width:100vw;
-	height:100vh;
-	overflow:hidden;
-	
-	margin:0;
-	padding:0;
-	list-style:none;
-	
-	display:grid;
-	grid-template-columns:100vw 100vw 100vw;
-	grid-template-rows:100vh 100vh 100vh;
-	
-	scroll-behavior:smooth;
-	scroll-snap-type: both mandatory;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: 100vw 100vw 100vw;
+  grid-template-rows: 100vh 100vh 100vh;
+
+  scroll-behavior: smooth;
+  scroll-snap-type: both mandatory;
 }
 
 li {
-	position:relative;
-	width:100vw;
-	height:100vh;
-	
-	display:grid;
-	place-items:center;
-	
-	scroll-snap-align: center;
-	
-	background-size:cover;
-	background-position:center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+
+  scroll-snap-align: center;
+
+  background-size: cover;
+  background-position: center;
 }
 
 /* Code voor de game mappen en styling van de elementen */
 
-img{
+img {
   width: 10%;
 }
 
-button{
+button {
+  position: relative;
   border-radius: 0;
   background-color: rgb(80, 39, 9);
   color: rgb(255, 255, 255);
   font-style: italic;
   font-weight: bold;
+  z-index: 999;
 }
 
 button:hover {
   background-color: black;
   color: white;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-button:visited{
-color: blue;
-background-color: white;
+button:visited {
+  color: blue;
+  background-color: white;
 }
 
-button:focus{
+button:focus {
   background-color: rgb(37, 22, 9);
   color: white;
 }
 
-button:active{
+button:active {
   background-color: rgb(52, 0, 52);
   color: white;
 }
 
-
-
-
-li:nth-of-type(1){
-  background-image:url(../images/deel1.1.png);
+li {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
 }
 
-li > section {
-  width: 20em;
+li:nth-of-type(2) > img:nth-of-type(2) {
+  height: 14em;
+  width: unset;
 }
 
-li > section > button {
+li:nth-of-type(2) > img:nth-of-type(2):hover {
+  height: 18em;
+}
+
+li:nth-of-type(4) > img:nth-of-type(2) {
+  height: 14em;
+  width: unset;
+}
+
+li:nth-of-type(4) > img:nth-of-type(2):hover {
+  height: 18em;
+}
+
+li:nth-of-type(7) > img:nth-of-type(2) {
+  height: 14em;
+  width: unset;
+}
+
+li:nth-of-type(7) > img:nth-of-type(2):hover {
+  height: 18em;
+}
+
+li:nth-of-type(8) > img:nth-of-type(2) {
+  height: 14em;
+  width: unset;
+}
+
+li:nth-of-type(8) > img:nth-of-type(2):hover {
+  height: 18em;
+}
+
+li:nth-of-type(9) > img:nth-of-type(2) {
+  height: 14em;
+  width: unset;
+}
+
+li:nth-of-type(9) > img:nth-of-type(2):hover {
+  height: 18em;
+}
+
+li > img:nth-of-type(2) {
+  height: 10em;
+  width: unset;
+}
+
+li > img:nth-of-type(2):hover {
+  height: 14em;
+}
+
+li:nth-of-type(1) {
+  background-image: url(../images/deel1.1.png);
+}
+
+li>section {
+  height: 10em;
+  overflow-y: scroll;
+}
+
+@keyframes scrollText {
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+li>section>button {
   width: 100%;
 }
 
-li > section > p {
+li>section>p {
   padding: 0;
   margin: 0;
 }
 
-
-p{
-  font-family: 'PT Serif', serif , Arial;
+p {
+  font-family: 'PT Serif', serif, Arial;
   opacity: 0;
-  color:rgb(226, 226, 226);
+  color: rgb(226, 226, 226);
 }
 
-span{
-  color:green;
+span {
+  color: green;
   font-weight: bold;
 }
 
 
-.open{
+.open {
+  position: relative;
   opacity: 0;
-  padding:2em;
-  animation: new-item-animation .3s linear forwards;
-} 
-  @keyframes new-item-animation {
-  from {
-      opacity: 0;
-      transform: translateY(-20px);
+  padding: 2em;
+  animation: new-item-animation .3s linear forwards, scrollText 15s 2s linear;
 }
 
+@keyframes new-item-animation {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
   to {
-      opacity: 1;
-      transform : translateY(0);
-      background-color: hsla(0, 0%, 0%, 0.82)
+    opacity: 1;
+    transform: translateY(0);
+    background-color: hsla(0, 0%, 0%, 0.82)
   }
 }
 
 
-#twee{
-  background-image:url(../images/deel2.2.png);
+#twee {
+  background-image: url(../images/deel2.2.png);
 
 }
 
-#drie{
-  background-image:url(../images/deel3.3.png);
+#drie {
+  background-image: url(../images/deel3.3.png);
 
 }
 
-#vier{
-  background-image:url(../images/deel4.4.png);
+#vier {
+  background-image: url(../images/deel4.4.png);
 
 }
 
-#vijf{
-  background-image:url(../images/deel5.5.png);
+#vijf {
+  background-image: url(../images/deel5.5.png);
 
 }
 
-#zes{
-  background-image:url(../images/deel6.6.png);
+#zes {
+  background-image: url(../images/deel6.6.png);
 
 }
 
-#zeven{
-  background-image:url(../images/deel7.7.png);
+#zeven {
+  background-image: url(../images/deel7.7.png);
 
 }
 
-#acht{
-  background-image:url(../images/deel8.8.png);
+#acht {
+  background-image: url(../images/deel8.8.png);
 
 }
 
-#negen{
-  background-image:url(../images/deel9.9.png);
+#negen {
+  background-image: url(../images/deel9.9.png);
 
 }
-
