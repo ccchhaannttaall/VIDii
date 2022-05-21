@@ -108,12 +108,12 @@ Mijn startniveau is: Rood
 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+ Oplossing gemaakt voor het aanbrengen van een tekstborder, webkit-text-border werdt niet ondersteunt dus werd het een text schaduw: https://stackoverflow.com/questions/2570972/css-font-border
 
 
 
   ### Bevinding 3:
-  ...
+  Oplossing gemaakt voor het scrollen van de lange tekstlappen door deze scrollend te maken.
 
 </details>
 
