@@ -373,6 +373,10 @@ li {
   background-position: center;
 }
 
+li > section {
+  margin: 1em;
+}
+
 /* Code voor de game mappen en styling van de elementen */
 
 img {
@@ -520,6 +524,13 @@ span {
   font-weight: bold;
 }
 
+.icon {
+  position: absolute;
+  bottom: 0.3em;
+  width: 3em;
+  height: 3em;
+}
+
 .open {
   position: relative;
   opacity: 0;
@@ -571,35 +582,61 @@ span {
   color: white;
   text-shadow: -2px 0 #1f1f1f, 0 2px #1f1f1f, 2px 0 #1f1f1f, 0 -2px #1f1f1f;
   background-color: hsla(233, 95%, 7%, 0.6); 
-
+  border-radius: 20px;
 }
 
 #vijf > section , #vijf > section > p{
   color: white;
   text-shadow: -2px 0 #1f1f1f, 0 2px #1f1f1f, 2px 0 #1f1f1f, 0 -2px #1f1f1f;
   background-color: hsla(233, 95%, 7%, 0.6); 
-  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+  border-radius: 20px;
+
+}
+
+#vijf > section {
+  box-shadow: 0 0 25px 20px #1f1f1f ;
 }
 
 #zes > section , #zes > section > p{
-  
+  background-color: #18189ba2;
+  border-radius: 20px;
+
 }
 
-#zeven > section , #zeven > section > p{
+#zes > section {
+  box-shadow: 0 0 25px 20px #18189ba2 ;
+}
+
+
+#zeven > section , #zeven > section > p:nth-of-type(1){
   color: white;
-  text-shadow: -2px 0 #1f1f1f, 0 2px #1f1f1f, 2px 0 #1f1f1f, 0 -2px #1f1f1f, -4px 0.8 #f8ff2c, 0 4px #f8ff2c, 4px 0 #f8ff2c, 0 -4px #f8ff2c;
-  background-color: hsla(0, 0%, 14%, 0.6); 
+  text-shadow: 3px 3px 5px #000, 
+               1px 1px 20px yellow; 
+}
+
+#zeven > section {
+  background-image: url('/images/achtergrond7.png');
+  background-repeat: no-repeat;
+  background-position-x: 52%;
+  background-size: 117% 100%;
+  background-color: rgba(255, 255, 255, 0.419);
+  border-radius: 4px;
 }
 
 #acht > section , #acht > section > p{
   background-color: rgb(140, 84, 32);
   color: white;
+}
 
+#acht > section {
+  border: 5px solid rgb(98, 56, 16);
+  outline: 5px solid rgb(140, 84, 32);
 }
 
 #negen > section , #negen > section > p{
   background-color: hsla(0, 0%, 14%, 0.6); 
   color: white;
+  border-radius: 20px;
 
 }
 
