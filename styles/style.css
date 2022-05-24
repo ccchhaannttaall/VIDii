@@ -614,7 +614,7 @@ span {
 }
 
 #zeven > section {
-  background-image: url('/images/achtergrond7.png');
+  background-image: url('./images/achtergrond7.png');
   background-repeat: no-repeat;
   background-position-x: 52%;
   background-size: 117% 100%;
