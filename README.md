@@ -164,5 +164,14 @@ animatie voor het uitvallen van het kaartje, aangepast naar mijn benodigdheden m
 5. https://stackoverflow.com/questions/2883373/simple-css-text-wont-center-in-a-button
 6. https://www.w3schools.com/cssref/css3_pr_background-size.asp
 7. Sanne voor de layout.
+8. https://nl.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening
+9. https://nl.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past
+10. https://nl.wikipedia.org/wiki/The_Legend_of_Zelda_(computerspel)
+11. https://nl.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time
+12. https://nl.wikipedia.org/wiki/The_Legend_of_Zelda:_Majora%27s_Mask
+13. https://nl.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker
+14. https://nl.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess
+15. https://nl.wikipedia.org/wiki/The_Legend_of_Zelda:_Skyward_Sword
+16. https://nl.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild
 
 </details>
