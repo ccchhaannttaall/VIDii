@@ -33,10 +33,10 @@ Mijn startniveau is: Rood
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - animatie
+  - layout
+  - sound
+  - kleur
  
 </details>
 
@@ -45,7 +45,7 @@ Mijn startniveau is: Rood
 
 ## Voortgang/Feedback 1
 
-<details>
+<details open>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
@@ -88,7 +88,7 @@ Mijn startniveau is: Rood
 
 ## Voortgang/Feedback 2
 
-<details>
+<details open>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
@@ -119,54 +119,30 @@ Mijn startniveau is: Rood
 
 
 
-## Voortgang/Feedback 3
-
-<details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
-  
-  ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
-
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
-
-  #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
-
-  ### Bevinding 3:
-  ...
-
-</details>
 
 
 
 
 ## Reflectie
 
-<details>
+<details open>
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  Mijn eindresultaat bestaat uit 9 verschillende kaartjes met uitleg over de 9 zelda games op chronologische volgorde.
+  <img src="readme-images/uitkomst.png" width="375px" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Het vormgeven van de teksten en het plaatsen hiervan ging erg goed en heb ik veel plezier ook bij gehad.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/ging goed.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Ik vond het maken van de bewegende layout heel erg moeilijk, uiteindelijk heb ik hulp gehad van sanne.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/moeilijk.png" width="375px" alt="bummer">
 </details>
 
 
@@ -182,7 +158,11 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://stackoverflow.com/questions/29464671/how-to-make-an-item-fall-down-with-css3-animation
 animatie voor het uitvallen van het kaartje, aangepast naar mijn benodigdheden maar dit als startpunt gekozen.
-2. bron 2
-3. ...
+2. https://stackoverflow.com/questions/22168506/double-text-shadow-on-p-element-in-css3
+3. https://stackoverflow.com/questions/6780614/css-how-to-position-two-elements-on-top-of-each-other-without-specifying-a-hei
+4. https://css-tricks.com/almanac/properties/t/text-shadow/
+5. https://stackoverflow.com/questions/2883373/simple-css-text-wont-center-in-a-button
+6. https://www.w3schools.com/cssref/css3_pr_background-size.asp
+7. Sanne voor de layout.
 
 </details>
