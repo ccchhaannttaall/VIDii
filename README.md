@@ -146,7 +146,7 @@ Mijn startniveau is: Rood
 </details>
 
 
-
+<a href="readme-images/feedback.pdf">pdf feedback</a>
 
 
 ## Bronnenlijst
