@@ -47,7 +47,7 @@ a:nth-of-type(1) {
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
-  background-color: hsla(0, 0%, 0%, 0.82);
+  background-color:  var(--background-color);
 }
 
 a:nth-of-type(1):visited {
@@ -76,13 +76,17 @@ a:nth-of-type(1):active {
 }
 
 
+:root{
+	--background-color: hsla(0, 0%, 0%, 0.82);
+}
+
 
 a:nth-of-type(2) {
   color: rgb(139, 6, 6);
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
-  background-color: hsla(0, 0%, 0%, 0.82);
+  background-color: var(--background-color);
 }
 
 a:nth-of-type(2):visited {
@@ -115,7 +119,7 @@ a:nth-of-type(3) {
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
-  background-color: hsla(0, 0%, 0%, 0.82);
+  background-color: var(--background-color);
 }
 
 a:nth-of-type(3):visited {
@@ -148,7 +152,7 @@ a:nth-of-type(4) {
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
-  background-color: hsla(0, 0%, 0%, 0.82);
+  background-color: var(--background-color);
 }
 
 a:nth-of-type(4):visited {
@@ -181,7 +185,7 @@ a:nth-of-type(5) {
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
-  background-color: hsla(0, 0%, 0%, 0.82);
+  background-color:  var(--background-color);
 }
 
 a:nth-of-type(5):visited {
@@ -214,7 +218,7 @@ a:nth-of-type(6) {
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
-  background-color: hsla(0, 0%, 0%, 0.82);
+  background-color:  var(--background-color);
 }
 
 a:nth-of-type(6):visited {
@@ -247,7 +251,7 @@ a:nth-of-type(7) {
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
-  background-color: hsla(0, 0%, 0%, 0.82);
+  background-color: var(--background-color);
 }
 
 a:nth-of-type(7):visited {
@@ -280,7 +284,7 @@ a:nth-of-type(8) {
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
-  background-color: hsla(0, 0%, 0%, 0.82);
+  background-color: var(--background-color);
 }
 
 a:nth-of-type(8):visited {
@@ -313,7 +317,7 @@ a:nth-of-type(9) {
   font-weight: bold;
   font-size: 1.5em;
   padding: 1em;
-  background-color: hsla(0, 0%, 0%, 0.82);
+  background-color:  var(--background-color);
 }
 
 a:nth-of-type(9):visited {
@@ -419,6 +423,7 @@ li {
   justify-content: space-between;
   flex-direction: column;
 }
+/* om de afbeeldingen die lelijk waren te vergroten of andersom te verkleinen, de Legend of zelda title en de Link in het midden.*/
 
 li:nth-of-type(2) > img:nth-of-type(2) {
   height: 14em;
